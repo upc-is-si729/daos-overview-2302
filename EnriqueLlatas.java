@@ -9,8 +9,13 @@ public class EnriqueLlatas{
     public EnriqueLlatas(){
 
     }
+     public EnriqueLlatas(Integer Id){
+
+    }
     
     public Integer getId(){
         return id;
     }
+
+
 }
