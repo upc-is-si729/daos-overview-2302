@@ -19,7 +19,7 @@ public class AlessandroVega {
         return firstname;
     }
 
-    //setter
+    //setters
 
     public void setId(Integer id) {
         this.id = id;
