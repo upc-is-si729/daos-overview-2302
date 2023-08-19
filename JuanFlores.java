@@ -6,6 +6,9 @@ public class JuanFlores {
   public JuanFlores() {
 
   }
+  public JuanFlores(Integer Id) {
+
+  }
 
   public Integer getId() {
     return id;
