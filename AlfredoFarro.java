@@ -6,7 +6,9 @@ public class AlfredoFarro {
     public AlfredoFarro(){
 
     }
+    public AlfredoFarro(Integer Id){
 
+    }
     public Integer getId() {
         return id;
     }
