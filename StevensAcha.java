@@ -7,6 +7,9 @@ public class StevensAcha {
 
     }
 
+    public StevensAcha(Integer id){
+        this.id = id;
+    }
     public Integer getId() {
         return id;
     }
