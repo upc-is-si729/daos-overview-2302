@@ -1,9 +1,9 @@
-public class SalomonZegarra {
+public class AndresDoig {
     private Integer id;
     private String lastName;
     private String firstName;
 
-    public SalomonZegarra(){
+    public AndresDoig(){
 
     }
 
