@@ -9,7 +9,7 @@ import java.util.Date;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Teacher extends Person{
-    private Integer id;
-    private String codigo;
+public class Teacher extends Person {
+  private Integer id;
+  private String codigo;
 }

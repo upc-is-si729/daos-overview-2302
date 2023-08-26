@@ -9,18 +9,19 @@ import java.util.Date;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Student extends Person{ //Upper Camel Case
-    private Integer id;
-    private String tiu;
+public class Student extends Person {  // Upper Camel Case
+  private Integer id;
+  private String tiu;
 
-    public Student(String lastName, String firstName, Date birthday, Integer id, String tiu) {
-        super(lastName, firstName, birthday);
-        this.id = id;
-        this.tiu = tiu;
-    }
-    @Override
-    public String toString(){
-        return "["+this.getId()+"]:"+this.getTiu()+"-"+this.getLastName()
-                +" "+this.getFirstName();
-    }
+  public Student(Integer id, String tiu, String lastName, String firstName, Date birthday) {
+    super(lastName, firstName, birthday);
+    this.id = id;
+    this.tiu = tiu;
+  }
+
+  @Override
+  public String toString() {
+    return "[" + this.getId() + "]: " + this.getTiu() + " - " + this.getLastName()
+        + " " + this.getFirstName();
+  }
 }

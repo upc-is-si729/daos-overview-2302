@@ -22,7 +22,6 @@
             <version>1.18.28</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
 </project>

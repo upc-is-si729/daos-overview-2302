@@ -12,7 +12,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Person {
-    private String lastName; //lower Camel Case
-    private String firstName;
-    private Date birthday;
+  private String lastName;  // lower Camel Case
+  private String firstName;
+  private Date birthday;
 }
