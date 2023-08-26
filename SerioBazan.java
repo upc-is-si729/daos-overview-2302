@@ -1,12 +1,12 @@
-public class JuanFlores {
+public class SergioBazan {
   private Integer id;
   private String lastName;
   private String firstName;
 
-  public JuanFlores() {
+  public SergioBazan() {
 
   }
-  public JuanFlores(Integer Id) {
+  public SergioBazan(Integer Id) {
 
   }
 
